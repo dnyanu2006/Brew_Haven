@@ -1,0 +1,6 @@
+{
+  "name": "Brew Haven - Artisanal Specialty Coffee & Bakery",
+  "description": "Full-stack artisanal cafe website featuring online ordering, custom beverage builder, table reservations, loyalty rewards, AI coffee sommelier, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
