@@ -43,12 +43,14 @@ async function startServer() {
       appType: 'spa',
     });
     app.use(vite.middlewares);
-  } else {
-    app.use(express.static(path.resolve(__dirname, 'dist')));
-    app.get('*', (_req, res) => {
-      res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
-    });
-  }
+  }  else {
+  app.use(express.static(path.resolve(__dirname, 'frontend', 'dist')));
+  app.get('*', (_req, res) => {
+    res.sendFile(
+      path.resolve(__dirname, 'frontend', 'dist', 'index.html')
+    );
+  });
+}
 
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`☕ Brew Haven server listening on http://0.0.0.0:${PORT}`);
