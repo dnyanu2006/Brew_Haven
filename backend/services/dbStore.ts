@@ -72,7 +72,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_hot_coffee',
     categoryName: 'Espresso & Hot Coffee',
     pricePaise: 28000, // ₹280.00
-    image: '/src/assets/images/latte_art_caramel_macchiato_1792323909916.jpg',
+    image: '/images/latte_art_caramel_macchiato_1792323909916.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: true,
@@ -123,7 +123,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_pour_over',
     categoryName: 'Single Origin & Manual Pour',
     pricePaise: 29000, // ₹290.00
-    image: '/src/assets/images/coffee_pour_over_specialty_1792323909005.jpg',
+    image: '/images/coffee_pour_over_specialty_1792323909005.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: true,
@@ -161,7 +161,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_bakery',
     categoryName: 'Fresh Viennoiserie & Bakes',
     pricePaise: 19000, // ₹190.00
-    image: '/src/assets/images/pastry_croissant_breakfast_1792323910120.jpg',
+    image: '/images/pastry_croissant_breakfast_1792323910120.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: true,
@@ -197,7 +197,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_cold_brew',
     categoryName: 'Cold Brews & Iced Crafts',
     pricePaise: 27000, // ₹270.00
-    image: '/src/assets/images/hero_brewhaven_cafe_1792323910107.jpg',
+    image: '/images/hero_brewhaven_cafe_1792323910107.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: true,
@@ -239,7 +239,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_savory',
     categoryName: 'Gourmet Savory Bites',
     pricePaise: 34000, // ₹340.00
-    image: '/src/assets/images/pastry_croissant_breakfast_1792323910120.jpg',
+    image: '/images/pastry_croissant_breakfast_1792323910120.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: false,
@@ -276,7 +276,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_teas',
     categoryName: 'Artisanal Infusions & Teas',
     pricePaise: 31000, // ₹310.00
-    image: '/src/assets/images/latte_art_caramel_macchiato_1792323909916.jpg',
+    image: '/images/latte_art_caramel_macchiato_1792323909916.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: false,
@@ -318,7 +318,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_hot_coffee',
     categoryName: 'Espresso & Hot Coffee',
     pricePaise: 22000, // ₹220.00
-    image: '/src/assets/images/latte_art_caramel_macchiato_1792323909916.jpg',
+    image: '/images/latte_art_caramel_macchiato_1792323909916.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: false,
@@ -356,7 +356,7 @@ export const INITIAL_MENU_ITEMS = [
     category: 'cat_bakery',
     categoryName: 'Fresh Viennoiserie & Bakes',
     pricePaise: 24000, // ₹240.00
-    image: '/src/assets/images/pastry_croissant_breakfast_1792323910120.jpg',
+    image: '/images/pastry_croissant_breakfast_1792323910120.jpg',
     isVeg: true,
     isAvailable: true,
     isBestseller: true,
@@ -574,7 +574,7 @@ class MemoryStore {
           {
             menuItem: 'item_caramel_macchiato',
             name: 'Salted Caramel Silk Macchiato',
-            image: '/src/assets/images/latte_art_caramel_macchiato_1792323909916.jpg',
+            image: '/images/latte_art_caramel_macchiato_1792323909916.jpg',
             pricePaise: 28000,
             quantity: 1,
             size: 'Regular (250ml)',
@@ -587,7 +587,7 @@ class MemoryStore {
           {
             menuItem: 'item_french_butter_croissant',
             name: 'Artisanal French Butter Croissant',
-            image: '/src/assets/images/pastry_croissant_breakfast_1792323910120.jpg',
+            image: '/images/pastry_croissant_breakfast_1792323910120.jpg',
             pricePaise: 19000,
             quantity: 1,
             size: 'Standard Single Piece',
