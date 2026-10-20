@@ -1,3 +1,7 @@
+import heroImage from '../assets/images/hero_brewhaven_cafe_1792323910107.jpg';
+import coffeeImage from '../assets/images/coffee_pour_over_specialty_1792323909005.jpg';
+import pastryImage from '../assets/images/pastry_croissant_breakfast_1792323910120.jpg';
+import latteImage from '../assets/images/latte_art_caramel_macchiato_1792323909916.jpg';
 import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext.tsx';
 import { ProductCard } from '../components/ProductCard.tsx';
@@ -104,7 +108,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-[#E0D5C8] aspect-[16/10] bg-[#EFE8DF]">
                 <img
-                  src="/src/assets/images/hero_brewhaven_cafe_1792323910107.jpg"
+                  src={heroImage}
                   alt="Brew Haven Cafe Interior"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -265,21 +269,21 @@ export const HomePage: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="rounded-xl overflow-hidden border border-[#E0D5C8] aspect-[4/3] bg-[#EFE8DF]">
             <img
-              src="/src/assets/images/coffee_pour_over_specialty_1792323909005.jpg"
+              src={coffeeImage}
               alt="Single Origin Pour Over"
               className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="rounded-xl overflow-hidden border border-[#E0D5C8] aspect-[4/3] bg-[#EFE8DF]">
             <img
-              src="/src/assets/images/pastry_croissant_breakfast_1792323910120.jpg"
+              src={pastryImage}
               alt="Fresh Butter Croissants"
               className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="rounded-xl overflow-hidden border border-[#E0D5C8] aspect-[4/3] bg-[#EFE8DF]">
             <img
-              src="/src/assets/images/latte_art_caramel_macchiato_1792323909916.jpg"
+              src={latteImage}
               alt="Velvet Latte Art"
               className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             />
