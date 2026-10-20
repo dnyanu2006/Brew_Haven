@@ -11,7 +11,7 @@ import {
   AiRecommendation,
 } from '../types/index.ts';
 
-const BASE_URL = '/api';
+const BASE_URL = 'https://brew-haven-backend-k4sf.onrender.com/api';
 
 async function fetchJson<T>(url: string, options?: RequestInit): Promise<T> {
   const token = localStorage.getItem('token');
